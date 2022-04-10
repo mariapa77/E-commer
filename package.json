@@ -1,0 +1,21 @@
+{
+  "name": "amazonas",
+  "version": "1.0.0",
+  "description": "E-commer",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../client && npm install && npm run build",
+    "start": "node backend/server.jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariapa77/E-commer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariapa77/E-commer/issues"
+  },
+  "homepage": "https://github.com/mariapa77/E-commer#readme"
+}
